@@ -225,6 +225,7 @@ Gemler Ruby kütüphaneleri sağlamaktan başka kendileri çalışma yeteneğine
 
 Bir gem'in çalıştırılabilir olması için yapılan işlemler bir kaç basit adımdan ibarettir. Dosyayı 'bin' dosyasına ve gemspec listesine eklemek yeterli olacaktır. Örnek :
 
+
 '''
 % mkdir bin
 % touch bin/hola
