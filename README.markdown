@@ -5,7 +5,6 @@ Bu belge sayesinde baştan sona ayrıntıları ile bir Ruby Kodunun nasıl gem'e
 
 RubyGems'deki araçlar sayesinde gem oluşturmak ve onu kullanıma sunmak kolay olmaktadır. Genelde başlangıç seviyesi yazılan "Hello World" u bir geme çevirip kullanalım.
 
-Gem için yazılan kod Github da bulunmaktadır.
 
 #İlk gem'iniz :
 
