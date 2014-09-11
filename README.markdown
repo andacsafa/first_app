@@ -10,7 +10,7 @@ Gem için yazılan kod Github da bulunmaktadır.
 #İlk gem'iniz :
 
 Kendi 'hola' gem ve gemspec'i için bir Ruby dosyası ile başladım. Siz kendi gem'inizi yayınlamak istiyorsanız başka bir isim koymanız gerekmektedir (hola_kullanıcıadınız gibi...). Bir gem'i isimlendirirken
-temel kullanımları görmek için [Model Rehberine](http://guides.rubygems.org/patterns/#consistent-naming) bakabilirsiniz. -> 
+temel kullanımları görmek için [Model Rehberine](http://guides.rubygems.org/patterns/#consistent-naming) bakabilirsiniz. 
 
 Gem için olan kodlar lib dosyası altında bulunmaktadır. Genelde lib dosyasının altında gem'iniz ile aynı ada sahip bir Ruby dosyası kullanılır çünkü require 'hola' çalıştırıldığında bu Ruby dosyası açılır. Bu dosya sizin gem kodunuzu ve API'nizi düzenleyip çalışmasını sağlamaktadır.
 
@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
 end
 ```
 
-*Açıklama kısmı bu örnekte görüldüğünden daha uzun olabilir. Eğer /^== [A-Z]/ formatına uygunsa açıklama RDoc biçimlendirici üzerinden çalıştırılıp RubyGems'de gösterilir. Bu açıklamanın kullanıcılar tarafından anlaşılması hususunda bir dikkat göstermek gerekmektedir.
+* Açıklama kısmı bu örnekte görüldüğünden daha uzun olabilir. Eğer /^== [A-Z]/ formatına uygunsa açıklama RDoc biçimlendirici üzerinden çalıştırılıp RubyGems'de gösterilir. Bu açıklamanın kullanıcılar tarafından anlaşılması hususunda bir dikkat göstermek gerekmektedir.
 
 Gemspec dosyası da Ruby dilinde yazılmaktadır. Bu sayede betiklerinizi yazıp dosya isimleri oluşturabilir, sürümü değiştirebilirsiniz. Gemspec dosyası birçok alanı içermektedir. Hepsini görebilmek için [tam kaynağa](http://guides.rubygems.org/specification-reference/) bakabilirsiniz. 
 
@@ -81,7 +81,7 @@ $ curl -u qrush https://rubygems.org/api/v1/api_key.yaml >
 Enter host password for user 'qrush':
 ```
 
-*Curl, OpenSSl veya sertifika ile alakalı bir problem yaşarsanız, yukarıda gördüğünüz adresi tarayıcınıza yazıp sizden istenilen bilgileri girdikten sonra api_key.yaml dosyası indirilecektir. İnen dosyayı ~/.gem dosyasnın altında 'credentials' adında kaydediniz.
+* Curl, OpenSSl veya sertifika ile alakalı bir problem yaşarsanız, yukarıda gördüğünüz adresi tarayıcınıza yazıp sizden istenilen bilgileri girdikten sonra api_key.yaml dosyası indirilecektir. İnen dosyayı ~/.gem dosyasnın altında 'credentials' adında kaydediniz.
 
 Bu işlemden sonra gem'inizi RubyGems'e koyabilirsiniz.
 
@@ -181,7 +181,7 @@ end
 require 'hola/translator'
 ```
 
-*Yeni bir dosya oluşumu gerçekleştiği için bunu gemspec dosyasına da bildirim niteliğinde eklemek gerekmektedir.
+* Yeni bir dosya oluşumu gerçekleştiği için bunu gemspec dosyasına da bildirim niteliğinde eklemek gerekmektedir.
 
 ```
 % cat hola.gemspec
@@ -190,9 +190,9 @@ Gem::Specification.new do |s|
 s.files       = ["lib/hola.rb", "lib/hola/translator.rb"]
 ...
 end
-----
+```
 
-*Bu yapılmazsa gem kurulumu bu dosyaları görmeden gerçekleşir.
+* Bu yapılmazsa gem kurulumu bu dosyaları görmeden gerçekleşir.
 
 Irb konsolunda oluşturulan gem'i deneyebilirsiniz.
 
