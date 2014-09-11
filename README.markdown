@@ -346,7 +346,7 @@ Test run options: --seed 15331
 
 #Kod dökümantasyonu :
 
-Yazılan gemlerin çoğu dökümantasyon için RDoc kullanmaktadır. Nasıl RDoc yazılacağı ile alakalı fazlası ile kaynak bulunmaktadır. RDoc ile alakalı bir örnek aşağıda verilmiştir.
+Yazılan gemlerin çoğu dökümantasyon için RDoc kullanmaktadır. Nasıl RDoc yazılacağı ile alakalı fazlası ile [kaynak](http://docs.seattlerb.org/rdoc/RDoc/Markup.html) bulunmaktadır. RDoc ile alakalı bir örnek aşağıda verilmiştir.
 
 ```
 # The main Hola driver
